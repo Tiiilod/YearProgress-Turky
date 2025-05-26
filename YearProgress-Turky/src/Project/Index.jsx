@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import AcademicProgress from "./academic";
+import AcademicProgress from "./Academic";
 // import Ekstrakurikuler from "./Ekstrakurikuler";
-import Home from "./home"; // Jika ada
+import Home from "./Home"; // Jika ada
 import Footer from "./components/footer";
 import ScrollToTop from "./components/ScrollTop";
-import EkstrakurikulerProgress from "./ekskul";
+import EkstrakurikulerProgress from "./Ekskul";
 
 function App1() {
   return (

@@ -50,22 +50,22 @@ const StudentProfile = () => {
             </h2>
             <ul className="space-y-3 leading-relaxed">
               <li>
-                <strong>Nama:</strong> Ahmad Zaki
+                <strong>Nama:</strong> Turky Husein Hatim
               </li>
               <li>
-                <strong>Kelas:</strong> X IPA 1
+                <strong>Kelas:</strong> X 
               </li>
               <li>
                 <strong>NIS:</strong> 20250123
               </li>
               <li>
-                <strong>Tanggal Lahir:</strong> 15 Januari 2009
+                <strong>Tanggal Lahir:</strong> 22 Februari 2009
               </li>
               <li>
-                <strong>Alamat:</strong> Jl. Pendidikan No. 12, Bandung
+                <strong>Alamat:</strong> Cawang ll, RT/RW: 001/004 Kec. Kramatjati, Jakarta Timur
               </li>
               <li>
-                <strong>Ekstrakurikuler:</strong> Futsal, Tahfidz
+                <strong>Ekstrakurikuler:</strong> Futsal, Taekwondo, Renang
               </li>
             </ul>
           </div>

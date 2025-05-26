@@ -26,7 +26,7 @@ const project = [
   {
     title: "Website Finance Tracker Sederhana ",
     // image: zakatImg,
-    link: "https://tzunance.netlify.app/",
+    link: "https://financeorganizer.netlify.app/",
   },
 ];
 
