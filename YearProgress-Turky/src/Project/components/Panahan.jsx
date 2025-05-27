@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import panahanImg from "../../assets/panahan.jpg";
 const PanahanSection = () => {
   return (
     <section className="bg-white py-24 px-6 mt-40">
@@ -27,7 +27,7 @@ const PanahanSection = () => {
 
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <motion.img
-          src="/images/panahan.jpg"
+          src={panahanImg}
           alt="Kegiatan Panahan"
           className="rounded-xl shadow-lg object-cover w-full h-80"
           initial={{ opacity: 0, x: -60 }}
@@ -55,8 +55,13 @@ const PanahanSection = () => {
             Pencapaian
           </h3>
           <ul className="list-disc list-inside text-gray-700 space-y-2">
-            <li>Top 10 kejuaraan panahan antar pesantren Jawa Tengah</li>
-            <li>Santri menguasai teknik jarak 15m dan 30m</li>
+            <li>
+              Santri menguasai teknik dasar dan pengenalan busur melalui sesi
+              memanah
+            </li>
+            <li>
+              Santri menguasai teknik jarak 5m dan 10m melalui sesi memanah
+            </li>
           </ul>
         </motion.div>
       </div>

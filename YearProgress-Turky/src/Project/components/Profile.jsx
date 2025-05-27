@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import studentPhoto from "../../assets/bulat..webp";
+import studentPhoto from "../../assets/Profile.jpg";
 
 const StudentProfile = () => {
   return (
@@ -53,10 +53,13 @@ const StudentProfile = () => {
                 <strong>Nama:</strong> Turky Husein Hatim
               </li>
               <li>
-                <strong>Kelas:</strong> X 
+                <strong>Kelas:</strong> X Hamzah Al-Kufiy
               </li>
               <li>
-                <strong>NIS:</strong> 20250123
+                <strong>No.Induk:</strong> 05211017
+              </li>
+              <li>
+                <strong>NISN:</strong> 0095039428
               </li>
               <li>
                 <strong>Tanggal Lahir:</strong> 22 Februari 2009
@@ -65,7 +68,8 @@ const StudentProfile = () => {
                 <strong>Alamat:</strong> Cawang ll, RT/RW: 001/004 Kec. Kramatjati, Jakarta Timur
               </li>
               <li>
-                <strong>Ekstrakurikuler:</strong> Futsal, Taekwondo, Renang
+                <strong>Ekstrakurikuler:</strong> Taekwondo, Panahan, Renang,
+                Futsal
               </li>
             </ul>
           </div>

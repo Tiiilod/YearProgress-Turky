@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import renangImg from "../../assets/renang.jpg";
 const RenangSection = () => {
   return (
     <section className="bg-white py-24 px-6 mt-40">
@@ -27,7 +27,7 @@ const RenangSection = () => {
 
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <motion.img
-          src="/images/renang.jpg"
+          src={renangImg}
           alt="Kegiatan Renang"
           className="rounded-xl shadow-lg object-cover w-full h-80"
           initial={{ opacity: 0, x: -60 }}
@@ -46,17 +46,17 @@ const RenangSection = () => {
             Kegiatan Rutin
           </h3>
           <ul className="list-disc list-inside text-gray-700 mb-6 space-y-2">
-            <li>Latihan gaya dada dan gaya bebas setiap Rabu pagi</li>
+            <li>Latihan gaya dada dan gaya bebas setiap Ahad pagi</li>
             <li>Pengenalan teknik pernapasan dan keselamatan air</li>
-            <li>Kegiatan renang di kolam mitra dengan pengawasan pelatih</li>
+            <li>Kegiatan renang di kolam pondok dengan pengawasan pelatih</li>
           </ul>
 
           <h3 className="text-2xl font-semibold text-gray-800 mb-4">
             Pencapaian
           </h3>
           <ul className="list-disc list-inside text-gray-700 space-y-2">
-            <li>Juara 2 lomba renang pelajar tingkat kecamatan</li>
-            <li>2 santri meraih medali pada lomba antar pesantren</li>
+            <li>Mengusai teknik dasar renang</li>
+            <li>Bisa menggunakan gaya dada dan gaya katak.</li>
           </ul>
         </motion.div>
       </div>

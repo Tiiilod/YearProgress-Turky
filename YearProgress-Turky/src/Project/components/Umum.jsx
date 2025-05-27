@@ -6,40 +6,40 @@ const umum = [
   {
     name: "IPS",
     progress: 85,
-    materi: "Sejarah kemerdekaan, sistem pemerintahan, dan interaksi sosial.",
-    pengampu: "Ustadzah Nurlaili, S.Pd.",
+    materi: "Geografi, sejarah, dan sosiologi.",
+    pengampu: "Ust. Ahmad Rifai Zebua, S.soS.",
     catatan:
       "Santri menunjukkan ketertarikan tinggi dalam diskusi dan mampu memahami konsep dasar sosiologi.",
   },
   {
     name: "IPA",
     progress: 78,
-    materi: "Sistem pernapasan, fotosintesis, dan perubahan zat.",
-    pengampu: "Ust. Wildan Prasetyo, M.Pd.",
+    materi: "Kimia, fisika, dan biologi.",
+    pengampu: "Ust.Aswin, M.Pd.",
     catatan:
       "Pemahaman cukup baik, namun perlu penguatan dalam praktik dan observasi langsung.",
   },
   {
     name: "Bahasa Inggris",
     progress: 82,
-    materi: "Daily conversation, grammar dasar, dan reading comprehension.",
-    pengampu: "Ust. Faiz Al-Hakim, S.Pd.",
+    materi: "Daily conversation, grammar dasar, dan vocabulary.",
+    pengampu: "Ust. Anjat, S.Pd.",
     catatan:
       "Kemampuan berbicara meningkat, disarankan latihan tambahan di listening.",
   },
   {
     name: "Bahasa Indonesia",
     progress: 90,
-    materi: "Teks naratif, puisi, dan kaidah kebahasaan.",
-    pengampu: "Ustadzah Rahmah, S.Pd.",
+    materi: "Puisi, Biografi,dan  Anekdot.",
+    pengampu: "Ust. Haidar, S.Pd.",
     catatan:
       "Santri sangat aktif dalam menulis dan mampu menganalisis teks dengan baik.",
   },
   {
     name: "Matematika",
     progress: 70,
-    materi: "Persamaan linear, bangun ruang, dan statistika.",
-    pengampu: "Ust. Hasan Maulana, S.Si.",
+    materi: "Persamaan linear, dan statistika.",
+    pengampu: "Ust. Haidar, S.Si.",
     catatan:
       "Masih perlu penguatan pada pemahaman konsep dasar, terutama dalam aljabar.",
   },

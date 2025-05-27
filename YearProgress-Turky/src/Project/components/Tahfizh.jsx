@@ -12,9 +12,9 @@ import {
 } from "recharts";
 import { User, Users } from "lucide-react";
 
-const hafalanAwal = 13;
-const hafalanAkhir = 22;
-const targetTahunan = 10;
+const hafalanAwal = 9;
+const hafalanAkhir = 12;
+const targetTahunan = 5;
 const improvement = hafalanAkhir - hafalanAwal;
 const improvementPercent = Math.min(
   ((improvement / targetTahunan) * 100).toFixed(0),
@@ -22,12 +22,12 @@ const improvementPercent = Math.min(
 );
 
 const murajaahData = [
-  { name: "Jan", juz: 4 },
-  { name: "Feb", juz: 5 },
-  { name: "Mar", juz: 3 },
+  { name: "Jan", juz: 9 },
+  { name: "Feb", juz: 9 },
+  { name: "Mar", juz: 9 },
   { name: "Apr", juz: 6 },
-  { name: "Mei", juz: 5 },
-  { name: "Jun", juz: 4 },
+  { name: "Mei", juz: 7 },
+  { name: "Jun", juz: 9 },
 ];
 
 const TahfizhSection = () => {
@@ -60,11 +60,11 @@ const TahfizhSection = () => {
         >
           <div className="flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-lg shadow-sm">
             <User size={18} className="text-indigo-600" />
-            <span className="font-medium">Ust. Ahmad Zainuddin, Lc.</span>
+            <span className="font-medium">Ust. Muhammad Ananda Fauzi</span>
           </div>
           <div className="flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-lg shadow-sm">
             <Users size={18} className="text-emerald-600" />
-            <span className="font-medium">Halaqah Asy-Syafi'i</span>
+            <span className="font-medium">Halaqah Imam Jazariy</span>
           </div>
         </motion.div>
 

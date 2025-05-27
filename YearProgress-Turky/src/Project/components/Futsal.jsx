@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import futsalImg from "../../assets/futsal.jpg";
 
 const FutsalSection = () => {
   return (
@@ -27,7 +28,7 @@ const FutsalSection = () => {
 
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <motion.img
-          src="/images/futsal.jpg"
+          src={futsalImg}
           alt="Kegiatan Futsal"
           className="rounded-xl shadow-lg object-cover w-full h-80"
           initial={{ opacity: 0, x: -60 }}
@@ -49,7 +50,7 @@ const FutsalSection = () => {
             <li>
               Latihan teknik dasar dan strategi permainan setiap Jumat sore
             </li>
-            <li>Sparring antar kelas dan antar pondok tiap bulan</li>
+            <li>Sparring antar kelas </li>
             <li>Pembinaan karakter melalui olahraga</li>
           </ul>
 
@@ -57,9 +58,9 @@ const FutsalSection = () => {
             Pencapaian
           </h3>
           <ul className="list-disc list-inside text-gray-700 space-y-2">
-            <li>Juara 1 Turnamen Futsal Antar Pesantren Se-Kabupaten 2024</li>
-            <li>Best Player diraih oleh santri kelas XI: Muhammad Fadhil</li>
-            <li>Tim terbaik dalam ajang silaturahmi pondok 2023</li>
+            <li>Menang dalam ujicoba antar sekolah </li>
+            <li>Tembus tim utama tingkat SMA</li>
+            <li>Tim terbaik dalam ajang classmeet pondok</li>
           </ul>
         </motion.div>
       </div>

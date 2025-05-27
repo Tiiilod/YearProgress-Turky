@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import taekwondoImg from "../../assets/taekwondo.jpg";
 
 const TaekwondoSection = () => {
   return (
@@ -27,7 +28,7 @@ const TaekwondoSection = () => {
 
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <motion.img
-          src="/images/taekwondo.jpg"
+          src={taekwondoImg}
           alt="Kegiatan Taekwondo"
           className="rounded-xl shadow-lg object-cover w-full h-80"
           initial={{ opacity: 0, x: -60 }}
@@ -50,15 +51,15 @@ const TaekwondoSection = () => {
               Latihan teknik dasar pukulan, tendangan, dan pertahanan diri
             </li>
             <li>Sesi sparring dan uji sabuk berkala</li>
-            <li>Latihan dua kali seminggu bersama pelatih bersertifikat</li>
+            <li>Latihan 1 kali 2 minggu bersama pelatih bersertifikat</li>
           </ul>
 
           <h3 className="text-2xl font-semibold text-gray-800 mb-4">
             Pencapaian
           </h3>
           <ul className="list-disc list-inside text-gray-700 space-y-2">
-            <li>Medali perunggu O2SN Kota tahun 2024</li>
-            <li>4 santri naik tingkat hingga sabuk biru</li>
+            <li>Santri naik tingkat hingga sabuk hjau</li>
+            <li>Menguasai teknik dasar pukulan, tendangan, dan pertahanan</li>
           </ul>
         </motion.div>
       </div>

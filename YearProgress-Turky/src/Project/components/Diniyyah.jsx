@@ -12,9 +12,9 @@ const diniyyahData = [
       "Mufrodat Tematik",
       "Hiwar (Percakapan)",
     ],
-    pengampu: "Ust. Abdul Aziz, Lc.",
+    pengampu: "Ust. Hafizh At-Tohir, Lc.",
     catatan:
-      "Santri sudah memahami struktur kalimat dan penggunaan mufrodat dalam konteks harian. Perlu penguatan di aspek tarjamah dan insya'.",
+      "Santri sudah memahami struktur kalimat dan penggunaan mufrodat dalam konteks harian. Perlu penguatan di aspek nahwu dan sharaf'.",
   },
   {
     title: "Ilmu Syariah",
@@ -22,12 +22,12 @@ const diniyyahData = [
     materi: [
       "Aqidah Ahlus Sunnah",
       "Fiqih Ibadah",
-      "Adab dan Akhlak",
+      "ilmu faraidh",
       "Tafsir & Hadits",
     ],
-    pengampu: "Ust. Ahmad Zainuddin, Lc.",
+    pengampu: "Ust. Hafizh At-Tohir, Lc.",
     catatan:
-      "Pemahaman konsep dasar fiqih dan akidah cukup baik. Diperlukan diskusi tambahan pada tema kontemporer dan dalil naqli.",
+      "Pemahaman konsep dasar fiqih dan akidah cukup baik. Diperlukan diskusi tambahan pada tema faraidh.",
   },
   {
     title: "Ilmu Alat",
@@ -38,7 +38,7 @@ const diniyyahData = [
       "Ilmu Balaghah",
       "Manthiq",
     ],
-    pengampu: "Ust. Fauzan Al-Khoir, Lc.",
+    pengampu: "Ust. Yahya Makmur, Lc.",
     catatan:
       "Santri mulai terbiasa dengan istilah-istilah ushul dan logika dasar. Proses berpikir kritis masih perlu dibimbing secara bertahap.",
   },

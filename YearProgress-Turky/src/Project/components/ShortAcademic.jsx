@@ -1,35 +1,39 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import tahfizhImg from "../../assets/tahfizh.jpg";
+import itImg from "../../assets/it.jpg";
+import diniyyahImg from "../../assets/diniyyah.jpg";
+import umumImg from "../../assets/ss4.png";
 
 const cardData = [
   {
     category: "Tahfizh",
     title: "Perkembangan Hafalan Santri",
     description:
-      "Pantau perkembangan hafalan Quran siswa dari minggu ke minggu secara sistematis.",
-    image: "/images/tahfizh.jpg",
+      "Pantau perkembangan hafalan Quran siswa selama setahun secara sistematis.",
+    image: tahfizhImg,
   },
   {
     category: "IT",
     title: "Proyek Aplikasi Siswa",
     description:
       "Dokumentasi progres siswa dalam mengembangkan aplikasi berbasis web & mobile.",
-    image: "/images/it.jpg",
+    image: itImg,
   },
   {
     category: "Diniyyah",
-    title: "Kegiatan Kajian Kitab",
+    title: "Mempelajari ilmu Agama",
     description:
-      "Progres pembelajaran kitab-kitab klasik oleh siswa dalam program diniyyah.",
-    image: "/images/diniyyah.jpg",
+      "Progres pembelajaran Ilmu Syariah, Bahasa Arab, Ilmu Alat selama setahun penuh.",
+    image: diniyyahImg,
   },
   {
     category: "Umum",
-    title: "Kegiatan Harian dan Umum",
+    title: "Pembelajaran Umum",
     description:
-      "Laporan kegiatan umum siswa seperti kebersihan, kedisiplinan, dan keterlibatan sosial.",
-    image: "/images/umum.jpg",
+      "Laporan Pembelajaran Ips, Ipa, Bahasa Inggris, dan Bahasa Indonesia, dan Matematika selama setahun.",
+    image: umumImg,
   },
 ];
 
