@@ -1,10 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Facebook, Instagram, Twitter, Mail, ArrowRight } from "lucide-react";
+// import logo from "../../assets/logo.png"; // ← sesuaikan path jika beda
 
 const Footer = () => {
   return (
-    <footer className="bg-purple-600 text-purple-100 pt-16 pb-10 px-4 sm:px-10 mt-20">
+    <footer className="bg-blue-600 text-purple-100 pt-16 pb-10 px-4 sm:px-10 mt-20">
       <motion.div
         className="max-w-6xl mx-auto grid gap-10 md:grid-cols-3 sm:grid-cols-2 text-center md:text-left"
         initial={{ opacity: 0, y: 50 }}
@@ -13,11 +14,14 @@ const Footer = () => {
         viewport={{ once: true }}
       >
         {/* Brand */}
-        <div>
-          <h2 className="text-2xl font-bold mb-4 text-white">
-            Turky Husein Hatim
-          </h2>
-          <p className="text-sm text-purple-200">
+        <div className="flex flex-col items-center md:items-start">
+          <div className="flex items-center gap-3 mb-4">
+            {/* <img src={logo} alt="Logo" className="h-10 w-10 rounded-full" /> */}
+            <h2 className="text-2xl font-bold text-white">
+              Turky Husein Hatim
+            </h2>
+          </div>
+          <p className="text-sm text-purple-200 text-center md:text-left">
             Seorang siswa yang bersekolah di SMA Plus Abu Dzar
           </p>
         </div>
@@ -74,9 +78,8 @@ const Footer = () => {
       </motion.div>
 
       {/* Copyright */}
-      <div className="border-t border-purple-600 mt-12 pt-6 text-center text-sm text-purple-200">
-        &copy; {new Date().getFullYear()} Turky Husein Hatim. All rights
-        reserved.
+      <div className="border-t border-white mt-12 pt-6 text-center text-sm text-purple-200">
+        &copy; {new Date().getFullYear()} Turky Husein Hatim. All rights reserved.
       </div>
     </footer>
   );

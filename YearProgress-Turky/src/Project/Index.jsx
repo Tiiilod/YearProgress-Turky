@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import AcademicProgress from "./Academic";
-// import Ekstrakurikuler from "./Ekstrakurikuler";
+// import Ekstrakurikuler from "./components/Shortextra";
 import Home from "./Home"; // Jika ada
 import Footer from "./components/footer";
 import ScrollToTop from "./components/ScrollTop";

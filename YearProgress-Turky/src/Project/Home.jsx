@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import StudentProfile from "./components/Profile";
 import AcademicProgress from "./components/ShortAcademic";
-import EkstrakurikulerProgress from "./components/ShortExtra";
+import EkstrakurikulerProgress from "./components/Shortextra"
 
 function Home() {
   return (

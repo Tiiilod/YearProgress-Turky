@@ -24,7 +24,7 @@ const project = [
   {
     title: "Website E-Commerce Sederhana",
     image: Commerceimg,
-    link: "https://tzuwiing.vercel.app",
+    link: "https://website-turkey.vercel.app/",
   },
   {
     title: "Website Finance Tracker Sederhana ",

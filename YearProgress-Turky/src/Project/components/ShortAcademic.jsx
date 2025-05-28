@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import tahfizhImg from "../../assets/tahfizh.jpg";
 import itImg from "../../assets/it.jpg";
 import diniyyahImg from "../../assets/diniyyah.jpg";
-import umumImg from "../../assets/ss4.png";
+import umumImg from "../../assets/umum.jpg";
 
 const cardData = [
   {
@@ -65,7 +65,7 @@ const AcademicProgress = () => {
         {cardData.map((card, index) => (
           <motion.div
             key={index}
-            className="bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden"
+            className="bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden flex flex-col"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: index * 0.2 }}
@@ -76,17 +76,17 @@ const AcademicProgress = () => {
               alt={card.title}
               className="w-full h-48 object-cover"
             />
-            <div className="p-6 text-left">
+            <div className="p-6 flex flex-col flex-1 text-left">
               <span className="text-sm uppercase text-indigo-600 font-semibold mb-2 block">
                 {card.category}
               </span>
               <h5 className="mb-2 text-xl font-bold text-gray-900">
                 {card.title}
               </h5>
-              <p className="mb-4 text-gray-700">{card.description}</p>
+              <p className="text-gray-700 mb-4">{card.description}</p>
               <Link
                 to="/academic"
-                className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 transition"
+                className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 transition mt-auto w-fit self-center"
               >
                 Pelajari Lebih Lanjut
                 <svg

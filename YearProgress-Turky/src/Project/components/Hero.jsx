@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Hero = ({ title, description }) => {
   return (
-    <section className="bg-purple-100 py-64 text-center">
+    <section className="bg-blue-200 py-64 text-center">
       <motion.div
         className="max-w-4xl mx-auto px-6"
         initial={{ opacity: 0, y: 50 }}

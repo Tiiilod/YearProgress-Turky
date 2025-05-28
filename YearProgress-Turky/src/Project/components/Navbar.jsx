@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import logo from "../../assets/bulat..webp";
+import logo from "../../assets/logo.png";
 
 const Navbar = () => {
   return (
