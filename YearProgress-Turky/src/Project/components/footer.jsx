@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Facebook, Instagram, Twitter, Mail, ArrowRight } from "lucide-react";
-// import logo from "../../assets/logo.png"; // ← sesuaikan path jika beda
+// import logo from "../../assets/logo.png";
 
 const Footer = () => {
   return (
